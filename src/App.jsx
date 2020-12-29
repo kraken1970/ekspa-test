@@ -1,10 +1,9 @@
-// import "./App.css";
-import PricingPage from './components/PricingPage'
+import PricingPage from "./components/PricingPage";
 
 function App() {
   return (
     <>
-      <PricingPage/>
+      <PricingPage />
     </>
   );
 }

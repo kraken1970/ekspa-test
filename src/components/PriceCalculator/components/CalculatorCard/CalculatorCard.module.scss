@@ -1,0 +1,147 @@
+@import "../../../../uiKit/colors";
+
+.card {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+  position: relative;
+  padding: 24px 40px;
+  position: relative;
+  @media (max-width: 1439px) {
+    padding: 24px;
+  }
+  @media (max-width: 767px) {
+    padding: 24px 16px 24px 16px;
+  }
+}
+
+.question {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  color: $gray2;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  @media (max-width: 767px) {
+    width: 24px;
+    height: 24px;
+    font-size: 16px;
+  }
+}
+
+.cardTitle {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  @media (max-width: 767px) {
+    align-items: flex-end;
+    margin-bottom: 32px;
+  }
+}
+
+.cardIcon {
+  margin-right: 16px;
+  @media (max-width: 767px) {
+    margin-right: 8px;
+  }
+}
+
+.title {
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 150%;
+  @media (max-width: 767px) {
+    font-size: 18px;
+  }
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  span {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 150%;
+    color: $accent-orange;
+    @media (max-width: 767px) {
+      font-size: 20px;
+    }
+  }
+}
+
+.devider {
+  width: 100%;
+  height: 1px;
+  background-color: #e0e0e0;
+  margin-bottom: 16px;
+  @media (max-width: 767px) {
+    display: none;
+  }
+}
+
+.visualDevider {
+  display: block;
+}
+
+.openCounters {
+  display: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #faf9f8;
+  position: absolute;
+  bottom: -16px;
+  left: 50%;
+  transform: translateX(-50%);
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  @media (max-width: 767px) {
+    display: flex;
+  }
+}
+
+.shevron {
+  transition: transform 0.3s ease;
+}
+
+.reverce {
+  transform: rotateX(180deg);
+}
+
+.counters {
+  transition: height 0.3s ease;
+  @media (max-width: 767px) {
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+  }
+}
+
+.visualCounters {
+  height: 120px;
+  opacity: 1;
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  line-height: 150%;
+  margin-bottom: 16px;
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+  @media (max-width: 767px) {
+    font-size: 16px;
+    flex-direction: column;
+  }
+}

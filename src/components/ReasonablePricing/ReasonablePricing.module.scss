@@ -1,0 +1,58 @@
+.reasonablePricing {
+	padding: 180px 0 110px 0;
+	background: url("../../images/reasonable-pricing.jpg") no-repeat center right 1vw / auto 100%;
+	@media (max-width: 1520px) {
+		background-position: center right -10vw;
+		background-size: 60% auto;
+	}
+	@media (max-width: 992px) {
+		padding: 80px 0;
+		background: none;
+		display: flex;
+		flex-direction: column;
+	}
+	@media (max-width: 767px) {
+		padding: 56px 0 0 0;
+	}
+
+	.title {
+		font-family: "Gilroy-SemiBold", sans-serif;
+		font-size: 48px;
+		margin-bottom: 32px;
+		@media (max-width: 767px) {
+			margin-bottom: 24px;
+		}
+	}
+	.description {
+		margin-bottom: 40px;
+		width: 100%;
+		max-width: 628px;
+		@media (max-width: 767px) {
+			margin-bottom: 24px;
+		}
+	}
+	.link {
+		margin-bottom: 16px;
+		@media (max-width: 767px) {
+			margin-bottom: 8px;
+		}
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+	.tabletImg {
+		display: none;
+		@media (max-width: 992px) {
+			display: block;
+			width: calc(100% + 32px);
+			height: auto;
+			margin-top: -100px;
+			position: relative;
+			z-index: -1;
+		}
+		@media (max-width: 767px) {
+			margin-top: -20px;
+			width: 100%;
+		}
+	}
+}

@@ -1,0 +1,129 @@
+@import "../../uiKit/colors";
+.btn {
+	border: none;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	text-decoration: none;
+	&:focus {
+		border: none;
+		outline: none;
+	}
+	&.primary {
+		width: 266px;
+		height: 56px;
+		background-color: $accent-orange;
+		border-radius: 2px;
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 1;
+		color: white;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-decoration: none;
+		@media (max-width: 767px) {
+			width: 204px;
+			height: 48px;
+			font-size: 18px;
+		}
+		&:hover {
+			background-color: $hover-accent-orange;
+		}
+	}
+	&.secondary {
+		width: 266px;
+		height: 48px;
+		background: $sand;
+		border-radius: 2px;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 1;
+		color: $gray2;
+		@media (max-width: 767px) {
+			width: 204px;
+		}
+		&:hover {
+			background-color: $hover-sand;
+		}
+	}
+	&.outlinedLight,
+	&.outlinedDark,
+	&.outlinedDarkBold {
+		display: flex;
+		align-items: center;
+		font-weight: 300;
+		font-size: 14px;
+		line-height: 16px;
+		background-color: transparent;
+		&:hover {
+			svg {
+				margin-left: 16px;
+			}
+		}
+		svg {
+			margin-left: 8px;
+			transition: 0.3s all ease;
+		}
+	}
+	&.outlinedLight {
+		color: $accent-sand;
+		svg {
+			path {
+				fill: $accent-sand;
+			}
+		}
+	}
+	&.outlinedDark {
+		font-size: 20px;
+		@media (max-width: 767px) {
+			font-size: 14px;
+		}
+		color: $gray;
+		svg {
+			path {
+				fill: $gray2;
+			}
+		}
+	}
+	&.outlinedDarkBold {
+		font-size: 24px;
+		line-height: 1.5;
+		font-weight: bold;
+		color: $gray;
+		text-decoration: none;
+		@media (max-width: 767px) {
+			font-size: 18px;
+		}
+		svg {
+			path {
+				fill: $gray;
+			}
+		}
+	}
+	&.outlinedFilled,
+	&.filledBlue {
+		width: 266px;
+		height: 56px;
+		border: 2px solid $accent-blue;
+		border-radius: 2px;
+		background-color: white;
+		color: $blue;
+		font-size: 20px;
+		@media (max-width: 767px) {
+			width: 204px;
+			height: 42.95px;
+			font-size: 18px;
+		}
+		&:hover {
+			background-color: $accent-blue;
+			color: white;
+		}
+	}
+	&.filledBlue {
+		background-color: $accent-blue;
+		color: white;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}

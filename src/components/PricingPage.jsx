@@ -1,11 +1,19 @@
-import React from 'react'
+import React from "react";
+import HowCoachingWorks from "./HowCoachingWorks/HowCoachingWorks";
+import PriceCalculator from "./PriceCalculator/PriceCalculator";
+import ReasonablePricing from "./ReasonablePricing/ReasonablePricing";
+import WorkingMode from "./WorkingMode/WorkingMode";
+
 
 const PricingPage = () => {
-	return (
-		<div>
-			<h1>PricingPage</h1>
-		</div>
-	)
-}
+  return (
+    <>
+      <ReasonablePricing/>
+			<WorkingMode/>
+			<HowCoachingWorks/>
+			<PriceCalculator/>
+    </>
+  );
+};
 
-export default PricingPage
+export default PricingPage;
