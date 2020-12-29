@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import PropTypes from "prop-types";
 import classNames from "classnames";
 import styles from "./CalculatorCard.module.scss";
 import { ReactComponent as FullTime } from "../../../../images/icons/fullTime.svg";
@@ -79,16 +78,6 @@ const CalculatorCard = ({ type, value }) => {
       </span>
     </div>
   );
-};
-
-CalculatorCard.propTypes = {
-  type: PropTypes.string.isRequired,
-  value: PropTypes.number.isRequired,
-};
-
-CalculatorCard.defaultProps = {
-  type: "full",
-  value: 15,
 };
 
 export default CalculatorCard;
