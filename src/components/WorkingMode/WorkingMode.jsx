@@ -6,7 +6,7 @@ import Button from "../Button/Button";
 
 const WorkingMode = () => {
   return (
-    <div className={s.workingMode}>
+    <section className={s.workingMode}>
       <div className="container">
         <h3 className={s.title}>Part time vs full time</h3>
         <p className={s.description}>
@@ -66,7 +66,7 @@ const WorkingMode = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

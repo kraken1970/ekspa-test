@@ -4,14 +4,13 @@ import PriceCalculator from "./PriceCalculator/PriceCalculator";
 import ReasonablePricing from "./ReasonablePricing/ReasonablePricing";
 import WorkingMode from "./WorkingMode/WorkingMode";
 
-
 const PricingPage = () => {
   return (
     <>
-      <ReasonablePricing/>
-			<WorkingMode/>
-			<HowCoachingWorks/>
-			<PriceCalculator/>
+      <ReasonablePricing />
+      <WorkingMode />
+      <HowCoachingWorks />
+      <PriceCalculator />
     </>
   );
 };
