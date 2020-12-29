@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/ekspa-test/static/css/main.e12d9941.chunk.css",
+    "main.js": "/ekspa-test/static/js/main.317bb3f8.chunk.js",
+    "main.js.map": "/ekspa-test/static/js/main.317bb3f8.chunk.js.map",
+    "runtime-main.js": "/ekspa-test/static/js/runtime-main.6490443b.js",
+    "runtime-main.js.map": "/ekspa-test/static/js/runtime-main.6490443b.js.map",
+    "static/css/2.679831fc.chunk.css": "/ekspa-test/static/css/2.679831fc.chunk.css",
+    "static/js/2.11867c90.chunk.js": "/ekspa-test/static/js/2.11867c90.chunk.js",
+    "static/js/2.11867c90.chunk.js.map": "/ekspa-test/static/js/2.11867c90.chunk.js.map",
+    "index.html": "/ekspa-test/index.html",
+    "static/css/2.679831fc.chunk.css.map": "/ekspa-test/static/css/2.679831fc.chunk.css.map",
+    "static/css/main.e12d9941.chunk.css.map": "/ekspa-test/static/css/main.e12d9941.chunk.css.map",
+    "static/js/2.11867c90.chunk.js.LICENSE.txt": "/ekspa-test/static/js/2.11867c90.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/ekspa-test/static/media/Gilroy-SemiBold.8134b9ab.eot",
+    "static/media/arrow-right.20cb4394.svg": "/ekspa-test/static/media/arrow-right.20cb4394.svg",
+    "static/media/PriceCalculator.module.scss": "/ekspa-test/static/media/bg2.c2057ec2.svg",
+    "static/media/chevronDown.3b0080f6.svg": "/ekspa-test/static/media/chevronDown.3b0080f6.svg",
+    "static/media/fullTime.c0b9cc74.svg": "/ekspa-test/static/media/fullTime.c0b9cc74.svg",
+    "static/media/how-coaching-works1.fa4f6ce3.jpg": "/ekspa-test/static/media/how-coaching-works1.fa4f6ce3.jpg",
+    "static/media/how-coaching-works2.ca18bf02.jpg": "/ekspa-test/static/media/how-coaching-works2.ca18bf02.jpg",
+    "static/media/partTime.004be7c8.svg": "/ekspa-test/static/media/partTime.004be7c8.svg",
+    "static/media/ReasonablePricing.module.scss": "/ekspa-test/static/media/reasonable-pricing.a86ebfdf.jpg",
+    "static/media/working-mode-full.7d70c595.jpg": "/ekspa-test/static/media/working-mode-full.7d70c595.jpg",
+    "static/media/working-mode-part.634b2242.jpg": "/ekspa-test/static/media/working-mode-part.634b2242.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6490443b.js",
+    "static/css/2.679831fc.chunk.css",
+    "static/js/2.11867c90.chunk.js",
+    "static/css/main.e12d9941.chunk.css",
+    "static/js/main.317bb3f8.chunk.js"
+  ]
+}
